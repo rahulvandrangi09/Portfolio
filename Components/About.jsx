@@ -10,7 +10,7 @@ const About = () => {
         setIsVisible(entry.isIntersecting);
       },
       {
-        threshold: 0.3, // Trigger when 30% of the element is visible
+        threshold: 0.3,
       }
     );
 
