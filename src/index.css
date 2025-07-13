@@ -126,8 +126,6 @@ body {
 #about {
   display: flex;
   flex-direction: row;
-  /* background-color: #020b22; */
-
   height: 90vh;
   justify-content: center;
   align-items: center;
@@ -247,7 +245,6 @@ body {
   border-radius: 20px;
 }
 
-/* Fade container in */
 .fade-in {
   opacity: 1;
   transform: translateY(0);
@@ -260,7 +257,6 @@ body {
   transition: opacity 0.8s ease, transform 0.8s ease;
 }
 
-/* Staggered icon entrance */
 .icon-animate {
   animation: bounceIn 0.5s forwards ease;
 }
@@ -276,7 +272,6 @@ body {
   }
 }
 
-/* Slide-in for text content */
 .slide-in {
   opacity: 1;
   transform: translateX(0);
@@ -384,7 +379,6 @@ body {
   color: #dcdcdc;
 }
 
-/* Fade and Slide container */
 .fade-in {
   opacity: 1;
   transform: translateY(0);
@@ -496,7 +490,7 @@ body {
 }
 
 #mainNav ul {
-  display: flex; /* ✅ Add this */
+  display: flex;
   flex-direction: row;
   list-style: none;
   gap: 20px;
@@ -504,7 +498,6 @@ body {
   margin: 0;
 }
 
-/* Mobile Responsive */
 @media (max-width: 768px) {
   #mobileMenuToggle {
     display: block;
